@@ -1,0 +1,36 @@
+#container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .grid-item {
+    margin-top: 2em;
+    padding: 1em;
+    border: 5px solid;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  #header {
+    border: 5px solid;
+    border-color: black;
+    padding: 1em;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  #time {
+    padding: 1em;
+    width: 25%;
+    padding-bottom: 2em;
+  }
+  
+  button {
+    width: 100%;
+    background: yellow;
+    height: 100px;
+    border-radius: 8px;
+    font-size: 36px;
+  }
